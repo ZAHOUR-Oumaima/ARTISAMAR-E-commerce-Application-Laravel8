@@ -1,0 +1,92 @@
+.commande_form{
+    width: 100%;
+  }
+    .title_commande{
+      text-align: center;
+    }
+  
+    .Achat{
+      margin-top: 180px;
+      font-family: 'Crimson Text', serif;
+      font-size: 15px;
+      padding: 13px;
+      margin-left: 20px;
+      margin-right: auto;
+      background-color: rgb(255, 255, 255);
+      padding: 3px 18px 13px 18px;
+      border: 1px solid lightgray;
+      border-radius: 3px;
+      box-shadow: 1px 12px 15px 1px rgba(39, 35, 36, 0.2);
+    }
+    
+    *{
+      box-sizing: border-box;
+    }
+    .commande{
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin: 0 -10px;
+    }
+    .col-30{
+      -ms-flex: 30%;
+      flex: 30%;
+    }
+    .col-70{
+      -ms-flex: 70%;
+      flex: 70%;
+    }
+    .col-50{
+      -ms-flex: 50%;
+      flex: 50%;
+    }
+    .col-30,.col-50,.col-70{
+      padding: 0 16px;
+    }
+  
+   .formulaire-txt{
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 12px;
+      border: 1px solid lightgray;
+      border-radius: 3px;
+    }
+    label{
+      margin-bottom: 10px;
+      display: block;
+    }
+    .btn{
+      background-color: rgb(31, 28, 28);
+      width: 100%;
+      color: white;
+      letter-spacing: 3px;
+      border-radius: 3px;
+      border: none;
+      cursor: pointer;
+      padding: 12px;
+      font-size: 17px;
+    }
+    .btn:hover{
+      background-color: black;
+      color: white;
+    }
+    a:link{
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+    }
+    a:hover{
+      color: rgb(53, 47, 47);
+      text-decoration: none;
+    }
+    span.price{
+      float: right;
+      color: gray;
+    }
+    
+    .link-product{
+      color: black;
+    }
+    
+
+  

@@ -1,0 +1,36 @@
+#cnx, #insc{
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+}
+
+.Login_Row{
+    padding-top: 180px;
+}
+
+
+.vertical-line{
+    border-left: 1px solid rgb(199, 187, 187);
+    padding-left: 35px;
+  }
+
+
+.btn{
+    background-color: rgb(31, 28, 28);
+    width: 100%;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+#forgotPWD{
+    text-align: center;
+    color: rgb(39, 37, 37);
+}
+
+#Block_connexion{
+    padding-right: 35px;
+}

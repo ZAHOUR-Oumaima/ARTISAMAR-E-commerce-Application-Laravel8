@@ -1,0 +1,157 @@
+.paiement-img{
+    height: 100px;
+    border: thick double #32a1ce;
+    border-radius: 20px;
+    background-color: rgb(241, 236, 236);
+    margin-left: -50px;
+}
+
+.paiement-img:hover{
+    background-color: rgb(134, 250, 169);
+}
+
+.Méthode-paiement{
+    margin-top: -30px;
+    width: 50%;
+      font-size: 17px;
+      margin-left: 20px;
+      margin-right: auto;
+      background-color: rgb(255, 255, 255);
+      padding: 3px 18px 13px 18px;
+      border: 1px solid lightgray;
+      border-radius: 3px;
+      box-shadow: 1px 12px 15px 1px rgba(39, 35, 36, 0.2);
+}
+
+.form-check-label{
+    display: block;
+}
+
+.form-méthode-paiement{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.méthode-titre{
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    margin-left: -30px;
+}
+
+
+.check-méthode{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: none;
+    z-index: 1;
+    opacity: 1;
+}
+
+.check-méthode:checked ~ .form-check-label .paiement-img{
+    border: thick double #8bfa40;
+    background-color: rgb(134, 250, 169);
+    box-shadow: 1px 12px 15px 1px rgba(122, 243, 52, 0.582);
+}
+
+.btn-methode{
+    margin-top: 55px;
+    background-color: rgb(31, 28, 28);
+    font-size: 150px;
+    color: white;
+    letter-spacing: 3px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 17px;
+    margin-left: 25%;
+    width: 200px;
+}
+
+.btn-méthode:hover{
+    background-color: black;
+    color: white;
+}
+
+.titre-page-mode{
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+.title_facture{
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+.adresse{
+    border: 1px solid black;
+    width: 450px;
+    padding: 10px;
+    border-left-style: dashed;
+    border-left-color: #ee7631;
+    border-left-width: 4px;
+    margin-left: 20px;
+}
+
+.Facture{
+    height: 74vh;
+}
+
+
+
+.bg-modal{ 
+    width: 100%;
+    height: 100%;
+    background-color : rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.bg-modal .modal-content{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+    display: block;
+    align-items: center;
+    position: relative;
+}
+.modal-content img{
+    width: 100px;
+    height: 100px;
+}
+
+.modal-content p{
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.bg-modal .modal-content .buttonPopUp{
+
+    border: 1px rgb(21, 22, 20) solid;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(15, 17, 16);
+    width: 200px;
+    height: 35px;
+    padding: 5px 25px;
+
+}
+
+.close{
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 30px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
